@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Lora", Georgia, serif;
+  --font-sans: "Be Vietnam Pro", sans-serif;
+  --font-handwritten: "Charmonman", cursive, sans-serif;
+  --font-luxury: "Cormorant Garamond", serif;
+  --font-display: "Playfair Display", serif;
+}
+
+@layer utilities {
+  .perspective-1500 {
+    perspective: 1500px;
+  }
+  .transform-style-preserve-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-visible {
+    backface-visibility: visible;
+  }
+  .origin-top-center {
+    transform-origin: top center;
+  }
+  
+  /* Luxury Gold Metallic Shimmering effect with rich, high-contrast dark bronze/gold tones */
+  .gold-lux-text {
+    background: linear-gradient(
+      to right, 
+      #1C1107 0%, 
+      #5C3D1E 15%, 
+      #A27D4C 35%, 
+      #DDBB81 50%, 
+      #A27D4C 65%, 
+      #5C3D1E 85%, 
+      #1C1107 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: goldFlow 6s linear infinite;
+  }
+}
+
+@keyframes goldFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+@keyframes warmFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-warm-gradient {
+  background: linear-gradient(-45deg, #FAF8F5, #F3ECE2, #F8F3EB, #EDE3D4);
+  background-size: 300% 300%;
+  animation: warmFlow 16s ease-in-out infinite;
+}
+
+/* Custom gorgeous scrollbar for clean visual aesthetic if needed */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(132, 117, 101, 0.25);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(132, 117, 101, 0.45);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FAF8F5;
+  font-family: var(--font-sans);
+  user-select: none;
+}
+

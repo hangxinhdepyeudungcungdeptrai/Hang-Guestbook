@@ -1,0 +1,6 @@
+{
+  "name": "Sealed Envelope Landing Page",
+  "description": "An elegant, interactive 3D sealed envelope introduction that opens with shattering wax effects and transitions to a serene botanical garden scene with a nostalgic, vintage guestbook on scattered dry leaves.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
