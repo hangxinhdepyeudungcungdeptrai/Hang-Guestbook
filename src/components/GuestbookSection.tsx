@@ -9,27 +9,8 @@ interface GuestbookEntry {
   timestamp: string;
 }
 
-// Prefilled initial messages to populate our memory book initially
-const INITIAL_ENTRIES: GuestbookEntry[] = [
-  {
-    id: "pre-1",
-    name: "Phan Anh",
-    message: "4 năm đại học thật nhanh, thanh xuân là những ngày tụi mình cùng chạy deadline ròng rã nhưng luôn rộn rã nụ cười! Chúc cậu đoạn đường sắp tới luôn rực rỡ và bình yên nha.",
-    timestamp: "2026-06-01"
-  },
-  {
-    id: "pre-2",
-    name: "Khánh Linh",
-    message: "Năm tháng ấy, cảm ơn vì có cậu bên cạnh lắng nghe và chia sẻ mọi buồn vui. Chúc cho những hoài bão của tụi mình hôm nay sẽ là trái ngọt của tương lai. Giữ mãi ngọn lửa nhiệt huyết này nhé!",
-    timestamp: "2026-06-03"
-  },
-  {
-    id: "pre-3",
-    name: "Minh Triết",
-    message: "Memories are gold, you shape the mold. Đúng như thông điệp vậy đó, kỷ niệm tụi mình tạo ra chính là kho báu vô giá tạo nên con người trưởng thành hôm nay. Chúc bạn thành công tuyệt đại trên con đường mới!",
-    timestamp: "2026-06-05"
-  }
-];
+// Prefilled initial messages to populate our memory book initially (empty for production)
+const INITIAL_ENTRIES: GuestbookEntry[] = [];
 
 // Helper to fit headline font size exactly like in Section 2
 function FitText({ text, className }: { text: string; className?: string }) {
