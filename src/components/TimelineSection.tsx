@@ -6,29 +6,29 @@ const timelineData = [
     id: 1,
     title: "Ngày Nhập Học",
     subtitle: "Bước chân đầu tiên",
-    description: "Những ngày thu ngập tràn ánh nắng, mang theo bao bỡ ngỡ và khát vọng về một chân trời mới tại mái trường đại học thân yêu.",
-    image: "https://lh3.googleusercontent.com/d/1AmIiA280YgFZ-FyXzVRnenBkFZuFqwkG",
+    description: "Những ngày thu ngập tràn ánh nắng, mang theo bao bỡ ngỡ và khát vọng về một chân trời mới.",
+    image: "https://lh3.googleusercontent.com/d/1Jqd0unxY-0eCr9_SFXXZ2HMx3PXxMvep",
   },
   {
     id: 2,
     title: "Câu lạc bộ TCT",
     subtitle: "Ngọn lửa nhiệt huyết",
-    description: "Những buổi sinh hoạt đầy ắp tiếng cười, dệt nên những tình bạn thanh xuân rực rỡ và những kỉ niệm chẳng thể phai nhòa.",
-    image: "https://lh3.googleusercontent.com/d/1pTSdGiiz1Cn98T9AaGNivUer1wBKJgQg",
+    description: "Những chuyến tình nguyện đầy ắp tiếng cười, những con người đặc biệt và những kỉ niệm chẳng thể phai nhòa.",
+    image: "https://lh3.googleusercontent.com/d/1cU4LzNh0y40le5wmfR5JLXpnk1SzQ-bF",
   },
   {
     id: 3,
     title: "Giảng Đường TMU",
     subtitle: "Những đêm thức trắng",
-    description: "Những bài luận, những lần thuyết trình căng thẳng, cùng bạn bè nỗ lực học tập dưới giảng đường TMU cổ kính.",
-    image: "https://lh3.googleusercontent.com/d/1I2b-TdgFF2iFyrau6MyOBhHb77vLgCXZ",
+    description: "Những bài luận, những lần thuyết trình căng thẳng, những bài kiểm tra khắc nghiệt dưới mái trường TMU.",
+    image: "https://lh3.googleusercontent.com/d/1-2UIY0RkI7gYDHjhBRZt4AIk7XXRxBNj",
   },
   {
     id: 4,
     title: "Ngày Tốt Nghiệp",
     subtitle: "Khép lại & Mở ra",
     description: "Khoác lên mình chiếc áo cử nhân vẻ vang, gói ghém một chặng đường tuyệt đẹp làm hành trang vững bước vào tương lai tươi sáng.",
-    image: "https://lh3.googleusercontent.com/d/1OeXjI96hJPD6X9VZ9E6Fne8Kjz1LiIeU",
+    image: "https://lh3.googleusercontent.com/d/1GCcDXNTE6fK0AJiThMbPoONMOIoiqPEG",
   }
 ];
 
