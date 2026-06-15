@@ -575,7 +575,7 @@ export default function GuestbookSection() {
                     <div className="flex items-end gap-2 text-[#8B3E36]/80 whitespace-nowrap pr-14 sm:pr-24 w-full">
                       <span className="font-serif font-bold text-[12px] tracking-widest uppercase mb-1">To:</span>
                       <span className="font-handwritten text-[#5A4535] text-[20px] sm:text-[23.5px] select-text ml-1 border-b border-dashed border-[#8B3E36]/40 pb-0.5 flex-1 min-w-0 tracking-wide">
-                        Me
+                        KTH
                       </span>
                     </div>
 
