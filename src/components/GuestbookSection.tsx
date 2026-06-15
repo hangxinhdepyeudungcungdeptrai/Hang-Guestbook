@@ -608,7 +608,7 @@ export default function GuestbookSection() {
                           backgroundSize: '100% 32px',
                           backgroundAttachment: 'local',
                         }}
-                        className="w-full h-full bg-transparent border-none focus:outline-none text-[#3E2D22] font-handwritten text-[19px] sm:text-[22px] leading-[32px] px-2 py-0 resize-none z-10 relative overflow-y-auto custom-scrollbar tracking-wide"
+                        className="w-full h-full bg-transparent border-none focus:outline-none text-[#3E2D22] font-sans text-[16px] sm:text-[18px] leading-[32px] px-2 py-0 resize-none z-10 relative overflow-y-auto custom-scrollbar tracking-wide"
                       />
                     </div>
 
